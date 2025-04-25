@@ -1,0 +1,41 @@
+{
+  "name": "DEW-MD",
+  "version": "2.0.0",
+  "description": "A WhatsApp bot created using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name DEW-MD",
+    "stop": "pm2 stop DEW-MD",
+    "restart": "pm2 restart DEW-MD"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "latest",
+    "pm2": "latest",
+    "express": "latest",
+    "axios": "latest",
+    "file_size_url": "latest",
+    "fs-extra": "latest",
+    "node-fetch": "latest",
+    "megajs": "latest",
+    "qrcode-terminal": "latest",
+    "yt-search": "latest",
+    "api-dylux": "latest",
+    "mongoose": "latest",
+    "canvas": "latest",
+    "wa-sticker-formatter": "latest",
+    "xml2js": "latest",
+    "cheerio": "latest",
+    "@sl-code-lords/movie-api": "latest",
+    "mime-type": "latest",
+    "moment":"latest",
+    "ruhend-scraper": "latest",
+    "xnxx-dl": "latest",
+    "adm-zip":"latest",
+    "node-cache":"latest",
+    "buffer": "latest",
+    "pdfkit": "latest",
+    "g-i-s": "latest",
+    "google-tts-api": "^2.0.2"
+  }
+}
