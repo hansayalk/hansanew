@@ -1,0 +1,25 @@
+{
+    "bot-name": "DEW-MD",
+    "description": "DEW-MD By Hansa Dewmina",
+    "logo": "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/XByte-logo.png",
+    "keywords": ["bot"],
+    "documentation-link": "https://dew-md-data.vercel.app",
+    "owner-verification":"hansadewmina455@gmail.com",
+  
+    "env": {
+      "SESSION_ID": {
+        "description": "Put your SESSION_ID here.",
+        "value":"",
+        "required": true
+        
+      },
+      "PREFIX": {
+        "description": "Bot command prefix, (e.g, . , ! @ etc",
+        "value":".",
+        "required": true
+        
+      }
+      
+    }
+  
+  }
