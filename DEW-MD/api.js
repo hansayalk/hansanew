@@ -1,9 +1,1 @@
-const fs = require("fs");
-if (fs.existsSync("api.env")) require("dotenv").config({ path: ".api.env" });
-
-function convertToBool(text, fault = "true") {
-  return text === fault ? true : false;
-}
-module.exports = {
-  BOT_URL: process.env.BOT_URL || "https://dew-md-data.vercel.app/DATA-BASE/Data-File.json"
-};
+const _0x17f9a0=_0x4005;(function(_0x2eb15d,_0x14ecbf){const _0x260cd8=_0x4005,_0x28cb35=_0x2eb15d();while(!![]){try{const _0x23eab0=-parseInt(_0x260cd8(0x165))/0x1+-parseInt(_0x260cd8(0x159))/0x2*(-parseInt(_0x260cd8(0x162))/0x3)+-parseInt(_0x260cd8(0x15f))/0x4+parseInt(_0x260cd8(0x167))/0x5+-parseInt(_0x260cd8(0x163))/0x6+parseInt(_0x260cd8(0x15c))/0x7*(-parseInt(_0x260cd8(0x15b))/0x8)+parseInt(_0x260cd8(0x169))/0x9;if(_0x23eab0===_0x14ecbf)break;else _0x28cb35['push'](_0x28cb35['shift']());}catch(_0x250fa0){_0x28cb35['push'](_0x28cb35['shift']());}}}(_0x2fa4,0x32e40));const fs=require('fs');if(fs[_0x17f9a0(0x15e)]('api.env'))require(_0x17f9a0(0x161))[_0x17f9a0(0x166)]({'path':_0x17f9a0(0x160)});function _0x2fa4(){const _0x17b522=['existsSync','820236YEdMyU','.api.env','dotenv','3uGjFgH','2088228vqtFbr','env','382749sZkWLL','config','916405trEaQZ','https://dew-md-data.vercel.app/DATA-BASE/Data-File.json','9943146HDgmKM','93518sfbURZ','BOT_URL','32nqcwbb','333445ohuZPh','exports'];_0x2fa4=function(){return _0x17b522;};return _0x2fa4();}function _0x4005(_0x2008f4,_0x1736d9){const _0x2fa48d=_0x2fa4();return _0x4005=function(_0x400535,_0x29c09f){_0x400535=_0x400535-0x159;let _0x3a2be6=_0x2fa48d[_0x400535];return _0x3a2be6;},_0x4005(_0x2008f4,_0x1736d9);}function convertToBool(_0x45212e,_0x31e98c='true'){return _0x45212e===_0x31e98c?!![]:![];}module[_0x17f9a0(0x15d)]={'BOT_URL':process[_0x17f9a0(0x164)][_0x17f9a0(0x15a)]||_0x17f9a0(0x168)};
